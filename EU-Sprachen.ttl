@@ -1,0 +1,239 @@
+@prefix EUSprache: <https://example.org/EUSprache/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+EUSprache: a skos:ConceptScheme ;
+    dct:title "Official languages of the European Union"@en, "Offizielle Sprachen der Europäischen Union"@de, "Langues officielles de l'Union européenne"@fr ;
+    dct:creator "JuMalb"@de ;
+    dct:created "2022-02-20"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dct:description "Dieses Vokabular ist eine Auflistung der 24 offiziellen Amtssprachen der Europäischen Union. Das Vokabular ist 3-sprachig, basierend auf den Arbeitssprachen der EU: Englisch, Französisch und Deutsch."@de, 
+    "This vocabulary is a list of the 24 official languages of the Europen Union. The vocabulary is multilingual, based on the procedural languages of the EU: English, French and German."@en,
+    "Ce vocabulaire est un listing des 24 langues officielles de l'Union européenne. Le vocabulaire est trilingue basé sur les langues de travail de l'UE : anglais, français et allemand. "@fr ;
+    skos:hasTopConcept EUSprache:Deutsch ;
+    skos:hasTopConcept EUSprache:Englisch ;
+    skos:hasTopConcept EUSprache:Französisch ;
+    skos:hasTopConcept EUSprache:Niederländisch ;
+    skos:hasTopConcept EUSprache:Italienisch ;
+    skos:hasTopConcept EUSprache:Dänisch ;
+    skos:hasTopConcept EUSprache:Griechisch ;
+    skos:hasTopConcept EUSprache:Portugiesisch ;
+    skos:hasTopConcept EUSprache:Spanisch ;
+    skos:hasTopConcept EUSprache:Finnisch ;
+    skos:hasTopConcept EUSprache:Schwedisch ;
+    skos:hasTopConcept EUSprache:Tschechisch ;
+    skos:hasTopConcept EUSprache:Estnisch ;
+    skos:hasTopConcept EUSprache:Ungarisch ;
+    skos:hasTopConcept EUSprache:Lettisch ;
+    skos:hasTopConcept EUSprache:Litauisch ;
+    skos:hasTopConcept EUSprache:Maltesisch ;
+    skos:hasTopConcept EUSprache:Polnisch ;
+    skos:hasTopConcept EUSprache:Slowakisch ;
+    skos:hasTopConcept EUSprache:Slowenisch ;
+    skos:hasTopConcept EUSprache:Bulgarisch ;
+    skos:hasTopConcept EUSprache:Irisch ;
+    skos:hasTopConcept EUSprache:Rumänisch ;
+    skos:hasTopConcept EUSprache:Kroatisch .
+
+EUSprache:Deutsch a skos:Concept ;
+    skos:prefLabel "Deutsch"@de, "German"@en, "allemand"@fr ;
+    skos:altLabel "Alemannic"@en, "Cimbrian"@en ;
+    skos:hiddenLabel "ger" ;
+    skos:definition "Westgermanische Sprache"@de, "West Germanic language"@en, "Langue germanique occidentale"@fr ;
+    skos:note "Amtssprache der EU seit 1958"@de, "Official EU language since 1958"@en, "Langue officielle de l'UE depuis 1958"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/ger>, <https://www.wikidata.org/wiki/Q188> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Englisch a skos:Concept ;
+    skos:prefLabel "Englisch"@de, "English"@en, "anglais"@fr ;
+    skos:hiddenLabel "eng" ;
+    skos:definition "Westgermanische Sprache mit Ursprung in England"@de, "West Germanic language originating in England"@en, "Langue germanique occidentale originaire d'Angleterre"@fr ;
+    skos:note "Amtssprache der EU seit 1973"@de, "Official EU language since 1973"@en, "Langue officielle de l'UE depuis 1973"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/eng>, <https://www.wikidata.org/wiki/Q1860> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Französisch a skos:Concept ;
+    skos:prefLabel "Französisch"@de, "French"@en, "français"@fr ;
+    skos:altLabel "Morvan French"@en, "Judeo-French"@en, "Allevard French"@en, "Poitevin French"@en, "Saintongeais French"@en ;
+    skos:hiddenLabel "fre" ;
+    skos:definition "Romanische Sprache mit Ursprung in Nordfrankreich"@de, "Romance language originating in Northern France"@en, "Langue romane originaire du nord de la France"@fr ;
+    skos:note "Amtssprache der EU seit 1958"@de, "Official EU language since 1958"@en, "Langue officielle de l'UE depuis 1958"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/fre>, <https://www.wikidata.org/wiki/Q150> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Niederländisch a skos:Concept ;
+    skos:prefLabel "Niederländisch"@de, "Dutch"@en, "hollandais"@fr ;
+    skos:hiddenLabel "dut" ;
+    skos:definition "Westgermanische Sprache mit Ursprung in den Niederlanden und Belgien"@de, "West Germanic language originating in the Netherlands and Belgium"@en, "Langue germanique occidentale originaire des Pays-Bas et de Belgique"@fr ;
+    skos:note "Amtssprache der EU seit 1958"@de, "Official EU language since 1958"@en, "Langue officielle de l'UE depuis 1958"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/dut>, <https://www.wikidata.org/wiki/Q7411> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Italienisch a skos:Concept ;
+    skos:prefLabel "Italienisch"@de, "Italian"@en, "hollandais"@fr ;
+    skos:altLabel "Milanese"@en, "Romagnol"@en, "Modena Italian"@en, "Venetian Italian"@en, "Judeo-Italian"@en ;
+    skos:hiddenLabel "ita" ;
+    skos:definition "Romanische Sprache mit Ursprung in Mittelitalien"@de, "Romance language originating in central Italy"@en, "Langue romane originaire du centre de l'Italie"@fr ;
+    skos:note "Amtssprache der EU seit 1958"@de, "Official EU language since 1958"@en, "Langue officielle de l'UE depuis 1958"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/ita>, <https://www.wikidata.org/wiki/Q652> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Dänisch a skos:Concept ;
+    skos:prefLabel "Dänisch"@de, "Danish"@en, "danois"@fr ;
+    skos:hiddenLabel "dan" ;
+    skos:definition "Nordgermanische Sprache, die in Dänemark gesprochen wird"@de, "North Germanic language spoken in Denmark"@en, "Langue germanique du nord parlée au Danemark"@fr ;
+    skos:note "Amtssprache der EU seit 1973"@de, "Official EU language since 1973"@en, "Langue officielle de l'UE depuis 1973"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/dan>, <https://www.wikidata.org/wiki/Q9035> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Griechisch a skos:Concept ;
+    skos:prefLabel "Griechisch"@de, "Greek"@en, "grec"@fr ;
+    skos:altLabel "East Cretan Greek"@en, "Neugriechisch"@de ;
+    skos:hiddenLabel "gre" ;
+    skos:definition "Sprache, die in Griechenland, Zypern und Südalbanien gesprochen wird"@de, "Language spoken in Greece, Cyprus and Southern Albania"@en, "Langue parlée en Grèce, à Chypre et dans le sud de l'Albanie"@fr ;
+    skos:note "Amtssprache der EU seit 1981"@de, "Official EU language since 1981"@en, "Langue officielle de l'UE depuis 1981"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/gre>, <https://www.wikidata.org/wiki/Q9129> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Portugiesisch a skos:Concept ;
+    skos:prefLabel "Portugiesisch"@de, "Portuguese"@en, "portugais"@fr ;
+    skos:hiddenLabel "por" ;
+    skos:definition "Romanische Sprache mit Ursprung im nordwestlichen Teil der Iberischen Halbinsel"@de, "Romance language originating in the northwestern part of the Iberian Peninsula"@en, "Langue romane originaire du nord-ouest de la péninsule ibérique"@fr ;
+    skos:note "Amtssprache der EU seit 1986"@de, "Official EU language since 1986"@en, "Langue officielle de l'UE depuis 1986"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/por>, <https://www.wikidata.org/wiki/Q5146> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Spanisch a skos:Concept ;
+    skos:prefLabel "Spanisch"@de, "Spanish"@en, "espagnol"@fr ;
+    skos:altLabel "Cheso"@en ;
+    skos:hiddenLabel "spa" ;
+    skos:definition "Romanische Sprache mit Ursprung im zentralen Teil der Iberischen Halbinsel"@de, "Romance language originating in the central part of the Iberian Peninsula"@en, "Langue romane originaire de la partie centrale de la péninsule ibérique"@fr ;
+    skos:note "Amtssprache der EU seit 1986"@de, "Official EU language since 1986"@en, "Langue officielle de l'UE depuis 1986"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/spa>, <https://www.wikidata.org/wiki/Q1321> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Finnisch a skos:Concept ;
+    skos:prefLabel "Finnisch"@de, "Finnish"@en, "finlandais"@fr ;
+    skos:hiddenLabel "fin" ;
+    skos:definition "Finno-ugrische Sprache, die in Finnland entstand und hauptsächlich gesprochen wird"@de, "Finno-Ugric language arising and mostly spoken in Finland"@en, "Langue finno-ougrienne apparue et principalement parlée en Finlande"@fr ;
+    skos:note "Amtssprache der EU seit 1995"@de, "Official EU language since 1995"@en, "Langue officielle de l'UE depuis 1995"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/fin>, <https://www.wikidata.org/wiki/Q1412> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Schwedisch a skos:Concept ;
+    skos:prefLabel "Schwedisch"@de, "Swedish"@en, "suédois"@fr ;
+    skos:hiddenLabel "swe" ;
+    skos:definition "Nordgermanische Sprache, die in Schweden und Finnland gesprochen wird"@de, "North Germanic language spoken in Sweden and Finland"@en, "Langue germanique du nord parlée en Suède et en Finlande"@fr ;
+    skos:note "Amtssprache der EU seit 1995"@de, "Official EU language since 1995"@en, "Langue officielle de l'UE depuis 1995"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/swe>, <https://www.wikidata.org/wiki/Q9027> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Tschechisch a skos:Concept ;
+    skos:prefLabel "Tschechisch"@de, "Czech"@en, "tchèque"@fr ;
+    skos:hiddenLabel "cze" ;
+    skos:definition "Westslawische Sprache, die in der Tschechischen Republik gesprochen wird"@de, "West Slavic language spoken in the Czech Republic"@en, "Langue slave occidentale parlée en République tchèque"@fr ;
+    skos:note "Amtssprache der EU seit 2004"@de, "Official EU language since 2004"@en, "Langue officielle de l'UE depuis 2004"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/cze>, <https://www.wikidata.org/wiki/Q9056> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Estnisch a skos:Concept ;
+    skos:prefLabel "Estnisch"@de, "Estonian"@en, "estonien"@fr ;
+    skos:altLabel "Seto"@en, "Võro"@en ;
+    skos:hiddenLabel "est" ;
+    skos:definition "Finno-ugrische Sprache, die in Estland gesprochen wird"@de, "Finno-Ugric language spoken in Estonia"@en, "Langue finno-ougrienne parlée en Estonie"@fr ;
+    skos:note "Amtssprache der EU seit 2004"@de, "Official EU language since 2004"@en, "Langue officielle de l'UE depuis 2004"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/est>, <https://www.wikidata.org/wiki/Q9072> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Ungarisch a skos:Concept ;
+    skos:prefLabel "Ungarisch"@de, "Hungarian"@en, "hongrois"@fr ;
+    skos:hiddenLabel "hun" ;
+    skos:definition "Sprache, die in und um Ungarn gesprochen wird"@de, "Language spoken in and around Hungary"@en, "Langue parlée dans et autour de la Hongrie"@fr ;
+    skos:note "Amtssprache der EU seit 2004"@de, "Official EU language since 2004"@en, "Langue officielle de l'UE depuis 2004"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/hun>, <https://www.wikidata.org/wiki/Q9067> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Lettisch a skos:Concept ;
+    skos:prefLabel "Lettisch"@de, "Latvian"@en, "letton"@fr ;
+    skos:altLabel "Latgalian"@en ;
+    skos:hiddenLabel "lav" ;
+    skos:definition "Baltische Sprache, offiziell in Lettland und der Europäischen Union"@de, "Baltic language, official in Latvia and the European Union"@en, "Langue balte, officielle en Lettonie et dans l'Union européenne"@fr ;
+    skos:note "Amtssprache der EU seit 2004"@de, "Official EU language since 2004"@en, "Langue officielle de l'UE depuis 2004"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/lav>, <https://www.wikidata.org/wiki/Q9078> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Litauisch a skos:Concept ;
+    skos:prefLabel "Litauisch"@de, "Lithuanian"@en, "lituanien"@fr ;
+    skos:hiddenLabel "lit" ;
+    skos:definition "Sprache, die in Litauen gesprochen wird"@de, "Language spoken in Lithuania"@en, "Langue parlée en Lituanie"@fr ;
+    skos:note "Amtssprache der EU seit 2004"@de, "Official EU language since 2004"@en, "Langue officielle de l'UE depuis 2004"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/lit>, <https://www.wikidata.org/wiki/Q9083> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Maltesisch a skos:Concept ;
+    skos:prefLabel "Maltesisch"@de, "Maltese"@en, "maltais"@fr ;
+    skos:hiddenLabel "mlt" ;
+    skos:definition "Semitische Sprache, die hauptsächlich auf Malta gesprochen wird"@de, "Semitic language spoken mostly in Malta"@en, "Langue sémitique parlée principalement à Malte"@fr ;
+    skos:note "Amtssprache der EU seit 2004"@de, "Official EU language since 2004"@en, "Langue officielle de l'UE depuis 2004"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/mlt>, <https://www.wikidata.org/wiki/Q9166> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Polnisch a skos:Concept ;
+    skos:prefLabel "Polnisch"@de, "Polish"@en, "polonais"@fr ;
+    skos:hiddenLabel "pol" ;
+    skos:definition "Westslawische Sprache, die in Polen gesprochen wird"@de, "West Slavic language spoken in Poland"@en, "Langue slave occidentale parlée en Pologne"@fr ;
+    skos:note "Amtssprache der EU seit 2004"@de, "Official EU language since 2004"@en, "Langue officielle de l'UE depuis 2004"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/pol>, <https://www.wikidata.org/wiki/Q809> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Slowakisch a skos:Concept ;
+    skos:prefLabel "Slowakisch"@de, "Slovak"@en, "slovaque"@fr ;
+    skos:hiddenLabel "slo" ;
+    skos:definition "Westslawische Sprache, die in der Slowakei gesprochen wird"@de, "West Slavic language spoken in Slovakia"@en, "Langue slave occidentale parlée en Slovaquie"@fr ;
+    skos:note "Amtssprache der EU seit 2004"@de, "Official EU language since 2004"@en, "Langue officielle de l'UE depuis 2004"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/slo>, <https://www.wikidata.org/wiki/Q9058> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Slowenisch a skos:Concept ;
+    skos:prefLabel "Slowenisch"@de, "Slovenian"@en, "slovène"@fr ;
+    skos:altLabel "Slovene"@en ;
+    skos:hiddenLabel "slv" ;
+    skos:definition "Slawische Sprache, die in Slowenien beheimatet ist"@de, "Slavic language native to Slovenia"@en, "Langue slave originaire de Slovénie"@fr ;
+    skos:note "Amtssprache der EU seit 2004"@de, "Official EU language since 2004"@en, "Langue officielle de l'UE depuis 2004"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/slv>, <https://www.wikidata.org/wiki/Q9063> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Bulgarisch a skos:Concept ;
+    skos:prefLabel "Bulgarisch"@de, "Bulgarian"@en, "bulgare"@fr ;
+    skos:hiddenLabel "bul" ;
+    skos:definition "Südslawische Sprache"@de, "South Slavic language"@en, "Langue slave du sud"@fr ;
+    skos:note "Amtssprache der EU seit 2007"@de, "Official EU language since 2007"@en, "Langue officielle de l'UE depuis 2007"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/bul>, <https://www.wikidata.org/wiki/Q7918> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Irisch a skos:Concept ;
+    skos:prefLabel "Irisch"@de, "Irish"@en, "irlandais"@fr ;
+    skos:altLabel "Gälisch"@de, "Gaelic"@en, "gaélique"@fr ;
+    skos:hiddenLabel "gle" ;
+    skos:definition "Keltische Sprache, die in Irland gesprochen wird"@de, "Celtic language spoken in Ireland"@en, "Langue celtique parlée en Irlande"@fr ;
+    skos:note "Amtssprache der EU seit 2007"@de, "Official EU language since 2007"@en, "Langue officielle de l'UE depuis 2007"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/gle>, <https://www.wikidata.org/wiki/Q9142> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Rumänisch a skos:Concept ;
+    skos:prefLabel "Rumänisch"@de, "Romanian"@en, "roumain"@fr ;
+    skos:altLabel "Megleno-Romanian"@en, "Moldovan"@en, "Boyash"@en ;
+    skos:hiddenLabel "rum" ;
+    skos:definition "Romanische Sprache"@de, "Romance language"@en, "Langue romane"@fr ;
+    skos:note "Amtssprache der EU seit 2007"@de, "Official EU language since 2007"@en, "Langue officielle de l'UE depuis 2007"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/rum>, <https://www.wikidata.org/wiki/Q7913> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Kroatisch a skos:Concept ;
+    skos:prefLabel "Kroatisch"@de, "Croatian"@en, "croate"@fr ;
+    skos:hiddenLabel "hrv" ;
+    skos:definition "Südslawische Sprache"@de, "South Slavic language"@en, "Langue slave du sud"@fr ;
+    skos:note "Amtssprache der EU seit 2013"@de, "Official EU language since 2013"@en, "Langue officielle de l'UE depuis 2013"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/hrv>, <https://www.wikidata.org/wiki/Q6654> ;
+    skos:topConceptOf EUSprache: .
