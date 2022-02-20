@@ -38,7 +38,7 @@ EUSprache: a skos:ConceptScheme ;
 
 EUSprache:Deutsch a skos:Concept ;
     skos:prefLabel "Deutsch"@de, "German"@en, "allemand"@fr ;
-    skos:altLabel "Alemannic"@en, "Cimbrian"@en ;
+    skos:altLabel "Alemannic"@en, "Alemannisch"@de, "alémanique"@fr, "Cimbrian"@en, "Zimbrisch"@de, "cimbre"@fr ;
     skos:hiddenLabel "ger" ;
     skos:definition "Westgermanische Sprache"@de, "West Germanic language"@en, "Langue germanique occidentale"@fr ;
     skos:note "Amtssprache der EU seit 1958"@de, "Official EU language since 1958"@en, "Langue officielle de l'UE depuis 1958"@fr ;
@@ -55,7 +55,7 @@ EUSprache:Englisch a skos:Concept ;
 
 EUSprache:Französisch a skos:Concept ;
     skos:prefLabel "Französisch"@de, "French"@en, "français"@fr ;
-    skos:altLabel "Morvan French"@en, "Judeo-French"@en, "Allevard French"@en, "Poitevin French"@en, "Saintongeais French"@en ;
+    skos:altLabel "Judeo-French"@en, "judéo-français"@fr, "Judeo-Französisch"@de ;
     skos:hiddenLabel "fre" ;
     skos:definition "Romanische Sprache mit Ursprung in Nordfrankreich"@de, "Romance language originating in Northern France"@en, "Langue romane originaire du nord de la France"@fr ;
     skos:note "Amtssprache der EU seit 1958"@de, "Official EU language since 1958"@en, "Langue officielle de l'UE depuis 1958"@fr ;
@@ -72,7 +72,7 @@ EUSprache:Niederländisch a skos:Concept ;
 
 EUSprache:Italienisch a skos:Concept ;
     skos:prefLabel "Italienisch"@de, "Italian"@en, "hollandais"@fr ;
-    skos:altLabel "Milanese"@en, "Romagnol"@en, "Modena Italian"@en, "Venetian Italian"@en, "Judeo-Italian"@en ;
+    skos:altLabel "Romagnol"@en, "romagnol"@fr, "Romagnolisch"@de, "Judeo-Italian"@en, "judéo-italien"@fr, "Judeo-Italienisch"@de ;
     skos:hiddenLabel "ita" ;
     skos:definition "Romanische Sprache mit Ursprung in Mittelitalien"@de, "Romance language originating in central Italy"@en, "Langue romane originaire du centre de l'Italie"@fr ;
     skos:note "Amtssprache der EU seit 1958"@de, "Official EU language since 1958"@en, "Langue officielle de l'UE depuis 1958"@fr ;
@@ -89,7 +89,7 @@ EUSprache:Dänisch a skos:Concept ;
 
 EUSprache:Griechisch a skos:Concept ;
     skos:prefLabel "Griechisch"@de, "Greek"@en, "grec"@fr ;
-    skos:altLabel "East Cretan Greek"@en, "Neugriechisch"@de ;
+    skos:altLabel "East Cretan Greek"@en, "Neugriechisch"@de, "grec moderne"@fr ;
     skos:hiddenLabel "gre" ;
     skos:definition "Sprache, die in Griechenland, Zypern und Südalbanien gesprochen wird"@de, "Language spoken in Greece, Cyprus and Southern Albania"@en, "Langue parlée en Grèce, à Chypre et dans le sud de l'Albanie"@fr ;
     skos:note "Amtssprache der EU seit 1981"@de, "Official EU language since 1981"@en, "Langue officielle de l'UE depuis 1981"@fr ;
@@ -106,7 +106,6 @@ EUSprache:Portugiesisch a skos:Concept ;
 
 EUSprache:Spanisch a skos:Concept ;
     skos:prefLabel "Spanisch"@de, "Spanish"@en, "espagnol"@fr ;
-    skos:altLabel "Cheso"@en ;
     skos:hiddenLabel "spa" ;
     skos:definition "Romanische Sprache mit Ursprung im zentralen Teil der Iberischen Halbinsel"@de, "Romance language originating in the central part of the Iberian Peninsula"@en, "Langue romane originaire de la partie centrale de la péninsule ibérique"@fr ;
     skos:note "Amtssprache der EU seit 1986"@de, "Official EU language since 1986"@en, "Langue officielle de l'UE depuis 1986"@fr ;
@@ -139,7 +138,7 @@ EUSprache:Tschechisch a skos:Concept ;
 
 EUSprache:Estnisch a skos:Concept ;
     skos:prefLabel "Estnisch"@de, "Estonian"@en, "estonien"@fr ;
-    skos:altLabel "Seto"@en, "Võro"@en ;
+    skos:altLabel "Seto"@en, "seto"@fr, "Seto"@de, "Võro"@en, "võro"@fr, "Võro"@de ;
     skos:hiddenLabel "est" ;
     skos:definition "Finno-ugrische Sprache, die in Estland gesprochen wird"@de, "Finno-Ugric language spoken in Estonia"@en, "Langue finno-ougrienne parlée en Estonie"@fr ;
     skos:note "Amtssprache der EU seit 2004"@de, "Official EU language since 2004"@en, "Langue officielle de l'UE depuis 2004"@fr ;
@@ -156,7 +155,7 @@ EUSprache:Ungarisch a skos:Concept ;
 
 EUSprache:Lettisch a skos:Concept ;
     skos:prefLabel "Lettisch"@de, "Latvian"@en, "letton"@fr ;
-    skos:altLabel "Latgalian"@en ;
+    skos:altLabel "Latgalian"@en, "Lettgallisch"@de, "latgalien"@fr ;
     skos:hiddenLabel "lav" ;
     skos:definition "Baltische Sprache, offiziell in Lettland und der Europäischen Union"@de, "Baltic language, official in Latvia and the European Union"@en, "Langue balte, officielle en Lettonie et dans l'Union européenne"@fr ;
     skos:note "Amtssprache der EU seit 2004"@de, "Official EU language since 2004"@en, "Langue officielle de l'UE depuis 2004"@fr ;
@@ -223,7 +222,6 @@ EUSprache:Irisch a skos:Concept ;
 
 EUSprache:Rumänisch a skos:Concept ;
     skos:prefLabel "Rumänisch"@de, "Romanian"@en, "roumain"@fr ;
-    skos:altLabel "Megleno-Romanian"@en, "Moldovan"@en, "Boyash"@en ;
     skos:hiddenLabel "rum" ;
     skos:definition "Romanische Sprache"@de, "Romance language"@en, "Langue romane"@fr ;
     skos:note "Amtssprache der EU seit 2007"@de, "Official EU language since 2007"@en, "Langue officielle de l'UE depuis 2007"@fr ;
