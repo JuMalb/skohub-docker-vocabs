@@ -5,22 +5,33 @@
 
 EUSprache: a skos:ConceptScheme ;
     dct:title "Official languages of the European Union"@en, "Offizielle Sprachen der Europäischen Union"@de, "Langues officielles de l'Union européenne"@fr ;
-    dct:creator "Julia Malbrecht"@de ;
-    dct:created "2022-02-20" ;
+    dct:creator "JuMalb"@de ;
+    dct:created "2022-02-20"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:description "Dieses Vokabular ist eine Auflistung der 24 offiziellen Amtssprachen der Europäischen Union. Das Vokabular ist 3-sprachig, basierend auf den Arbeitssprachen der EU: Englisch, Französisch und Deutsch."@de, 
     "This vocabulary is a list of the 24 official languages of the Europen Union. The vocabulary is multilingual, based on the procedural languages of the EU: English, French and German."@en,
     "Ce vocabulaire est un listing des 24 langues officielles de l'Union européenne. Le vocabulaire est trilingue basé sur les langues de travail de l'UE : anglais, français et allemand. "@fr ;
     skos:hasTopConcept EUSprache:Deutsch ;
-    skos:hasTopConcept EUSprache:Englisch .
+    skos:hasTopConcept EUSprache:Englisch ;
+    skos:hasTopConcept EUSprache:Französisch .
 
 EUSprache:Deutsch a skos:Concept ;
-    skos:prefLabel "Deutsch"@de, "German"@en ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/languages/ger> ;
+    skos:prefLabel "Deutsch"@de, "German"@en, "allemand"@fr ;
+    skos:altLabel "Alemannic"@en, "Cimbrian"@en ;
+    skos:hiddenLabel "ger" ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/ger>, <https://www.wikidata.org/wiki/Q188> ;
     skos:topConceptOf EUSprache: .
 
 EUSprache:Englisch a skos:Concept ;
     skos:prefLabel "Englisch"@de, "English"@en, "anglais"@fr ;
-    skos:altLabel "Britisch"@de, "Amerikanisch"@de ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/languages/eng> ;
+    skos:hiddenLabel "eng" ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/eng>, <https://www.wikidata.org/wiki/Q1860> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Französisch a skos:Concept ;
+    skos:prefLabel "Französisch"@fr, "French"@fr, "français"@fr ;
+    skos:hiddenLabel "fre" ;
+    skos:definition "Romanische Sprache mit Ursprung in Nordfrankreich"@de, "Romance language originating in Northern France"@en, "Langue romane originaire du nord de la France"@fr ;
+    skos:note "Amtssprache der EU seit 1958"@de, "Official EU language since 1958"@en, "Langue officielle de l'UE depuis 1958"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/fre>, <https://www.wikidata.org/wiki/Q150> ;
     skos:topConceptOf EUSprache: .
