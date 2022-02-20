@@ -5,11 +5,21 @@
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2FEUSprache%2FDeutsch",
   "prefLabel": {
     "en": "German",
-    "de": "Deutsch"
+    "de": "Deutsch",
+    "fr": "allemand"
+  },
+  "altLabel": {
+    "en": [
+      "Alemannic",
+      "Cimbrian"
+    ]
   },
   "exactMatch": [
     {
       "id": "http://id.loc.gov/vocabulary/languages/ger"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q188"
     }
   ],
   "inScheme": {

@@ -8,15 +8,12 @@
     "de": "Englisch",
     "fr": "anglais"
   },
-  "altLabel": {
-    "de": [
-      "Britisch",
-      "Amerikanisch"
-    ]
-  },
   "exactMatch": [
     {
       "id": "http://id.loc.gov/vocabulary/languages/eng"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q1860"
     }
   ],
   "inScheme": {

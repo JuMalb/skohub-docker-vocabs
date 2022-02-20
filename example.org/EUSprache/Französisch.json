@@ -1,25 +1,24 @@
 {
-  "id": "https://example.org/EUSprache/Deutsch",
+  "id": "https://example.org/EUSprache/Französisch",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2FEUSprache%2FDeutsch",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2FEUSprache%2FDeutsch",
-  "prefLabel": {
-    "en": "German",
-    "de": "Deutsch",
-    "fr": "allemand"
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2FEUSprache%2FFranz%C3%B6sisch",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2FEUSprache%2FFranz%C3%B6sisch",
+  "definition": {
+    "en": "Romance language originating in Northern France",
+    "de": "Romanische Sprache mit Ursprung in Nordfrankreich",
+    "fr": "Langue romane originaire du nord de la France"
   },
-  "altLabel": {
-    "en": [
-      "Alemannic",
-      "Cimbrian"
-    ]
+  "note": {
+    "en": "Official EU language since 1958",
+    "de": "Amtssprache der EU seit 1958",
+    "fr": "Langue officielle de l'UE depuis 1958"
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/languages/ger"
+      "id": "http://id.loc.gov/vocabulary/languages/fre"
     },
     {
-      "id": "https://www.wikidata.org/wiki/Q188"
+      "id": "https://www.wikidata.org/wiki/Q150"
     }
   ],
   "inScheme": {
