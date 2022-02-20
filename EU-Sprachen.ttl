@@ -13,7 +13,11 @@ EUSprache: a skos:ConceptScheme ;
     "Ce vocabulaire est un listing des 24 langues officielles de l'Union européenne. Le vocabulaire est trilingue basé sur les langues de travail de l'UE : anglais, français et allemand. "@fr ;
     skos:hasTopConcept EUSprache:Deutsch ;
     skos:hasTopConcept EUSprache:Englisch ;
-    skos:hasTopConcept EUSprache:Französisch .
+    skos:hasTopConcept EUSprache:Französisch ;
+    skos:hasTopConcept EUSprache:Niederländisch ;
+    skos:hasTopConcept EUSprache:Italienisch ;
+    skos:hasTopConcept EUSprache:Dänisch ;
+    skos:hasTopConcept EUSprache:Griechisch .
 
 EUSprache:Deutsch a skos:Concept ;
     skos:prefLabel "Deutsch"@de, "German"@en, "allemand"@fr ;
@@ -33,9 +37,44 @@ EUSprache:Englisch a skos:Concept ;
     skos:topConceptOf EUSprache: .
 
 EUSprache:Französisch a skos:Concept ;
-    skos:prefLabel "Französisch"@fr, "French"@fr, "français"@fr ;
+    skos:prefLabel "Französisch"@de, "French"@en, "français"@fr ;
+    skos:altLabel "Morvan French"@en, "Judeo-French"@en, "Allevard French"@en, "Poitevin French"@en, "Saintongeais French"@en ;
     skos:hiddenLabel "fre" ;
     skos:definition "Romanische Sprache mit Ursprung in Nordfrankreich"@de, "Romance language originating in Northern France"@en, "Langue romane originaire du nord de la France"@fr ;
     skos:note "Amtssprache der EU seit 1958"@de, "Official EU language since 1958"@en, "Langue officielle de l'UE depuis 1958"@fr ;
     skos:exactMatch <http://id.loc.gov/vocabulary/languages/fre>, <https://www.wikidata.org/wiki/Q150> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Niederländisch a skos:Concept ;
+    skos:prefLabel "Niederländisch"@de, "Dutch"@en, "hollandais"@fr ;
+    skos:hiddenLabel "dut" ;
+    skos:definition "Westgermanische Sprache mit Ursprung in den Niederlanden und Belgien"@de, "West Germanic language originating in the Netherlands and Belgium"@en, "Langue germanique occidentale originaire des Pays-Bas et de Belgique"@fr ;
+    skos:note "Amtssprache der EU seit 1958"@de, "Official EU language since 1958"@en, "Langue officielle de l'UE depuis 1958"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/dut>, <https://www.wikidata.org/wiki/Q7411> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Italienisch a skos:Concept ;
+    skos:prefLabel "Italienisch"@de, "Italian"@en, "hollandais"@fr ;
+    skos:altLabel "Milanese"@en, "Romagnol"@en, "Modena Italian"@en, "Venetian Italian"@en, "Judeo-Italian"@en ;
+    skos:hiddenLabel "ita" ;
+    skos:definition "Romanische Sprache mit Ursprung in Mittelitalien"@de, "Romance language originating in central Italy"@en, "Langue romane originaire du centre de l'Italie"@fr ;
+    skos:note "Amtssprache der EU seit 1958"@de, "Official EU language since 1958"@en, "Langue officielle de l'UE depuis 1958"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/ita>, <https://www.wikidata.org/wiki/Q652> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Dänisch a skos:Concept ;
+    skos:prefLabel "Dänisch"@de, "Danish"@en, "danois"@fr ;
+    skos:hiddenLabel "dan" ;
+    skos:definition "Nordgermanische Sprache, die in Dänemark gesprochen wird"@de, "North Germanic language spoken in Denmark"@en, "Langue germanique du nord parlée au Danemark"@fr ;
+    skos:note "Amtssprache der EU seit 1973"@de, "Official EU language since 1973"@en, "Langue officielle de l'UE depuis 1973"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/dan>, <https://www.wikidata.org/wiki/Q9035> ;
+    skos:topConceptOf EUSprache: .
+
+EUSprache:Griechisch a skos:Concept ;
+    skos:prefLabel "Griechisch"@de, "Greek"@en, "grec"@fr ;
+    skos:altLabel "East Cretan Greek"@en, "Neugriechisch"@de ;
+    skos:hiddenLabel "gre" ;
+    skos:definition "Sprache, die in Griechenland, Zypern und Südalbanien gesprochen wird"@de, "Language spoken in Greece, Cyprus and Southern Albania"@en, "Langue parlée en Grèce, à Chypre et dans le sud de l'Albanie"@fr ;
+    skos:note "Amtssprache der EU seit 1981"@de, "Official EU language since 1981"@en, "Langue officielle de l'UE depuis 1981"@fr ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/languages/gre>, <https://www.wikidata.org/wiki/Q9129> ;
     skos:topConceptOf EUSprache: .
