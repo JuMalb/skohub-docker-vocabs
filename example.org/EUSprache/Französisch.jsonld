@@ -3,6 +3,20 @@
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2FEUSprache%2FFranz%C3%B6sisch",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2FEUSprache%2FFranz%C3%B6sisch",
+  "prefLabel": {
+    "en": "French",
+    "de": "Französisch",
+    "fr": "français"
+  },
+  "altLabel": {
+    "en": [
+      "Morvan French",
+      "Judeo-French",
+      "Allevard French",
+      "Poitevin French",
+      "Saintongeais French"
+    ]
+  },
   "definition": {
     "en": "Romance language originating in Northern France",
     "de": "Romanische Sprache mit Ursprung in Nordfrankreich",
