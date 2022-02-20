@@ -16,7 +16,8 @@
     "id": "https://example.org/EUSprache/",
     "title": {
       "en": "Official languages of the European Union",
-      "de": "Offizielle Sprachen der Europäischen Union"
+      "de": "Offizielle Sprachen der Europäischen Union",
+      "fr": "Langues officielles de l'Union européenne"
     }
   },
   "topConceptOf": {
