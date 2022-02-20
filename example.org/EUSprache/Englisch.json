@@ -8,6 +8,16 @@
     "de": "Englisch",
     "fr": "anglais"
   },
+  "definition": {
+    "en": "West Germanic language originating in England",
+    "de": "Westgermanische Sprache mit Ursprung in England",
+    "fr": "Langue germanique occidentale originaire d'Angleterre"
+  },
+  "note": {
+    "en": "Official EU language since 1973",
+    "de": "Amtssprache der EU seit 1973",
+    "fr": "Langue officielle de l'UE depuis 1973"
+  },
   "exactMatch": [
     {
       "id": "http://id.loc.gov/vocabulary/languages/eng"

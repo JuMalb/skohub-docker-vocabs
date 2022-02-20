@@ -14,6 +14,16 @@
       "Cimbrian"
     ]
   },
+  "definition": {
+    "en": "West Germanic language",
+    "de": "Westgermanische Sprache",
+    "fr": "Langue germanique occidentale"
+  },
+  "note": {
+    "en": "Official EU language since 1958",
+    "de": "Amtssprache der EU seit 1958",
+    "fr": "Langue officielle de l'UE depuis 1958"
+  },
   "exactMatch": [
     {
       "id": "http://id.loc.gov/vocabulary/languages/ger"
