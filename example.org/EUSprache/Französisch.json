@@ -10,11 +10,13 @@
   },
   "altLabel": {
     "en": [
-      "Morvan French",
-      "Judeo-French",
-      "Allevard French",
-      "Poitevin French",
-      "Saintongeais French"
+      "Judeo-French"
+    ],
+    "de": [
+      "Judeo-Französisch"
+    ],
+    "fr": [
+      "judéo-français"
     ]
   },
   "definition": {

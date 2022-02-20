@@ -10,11 +10,16 @@
   },
   "altLabel": {
     "en": [
-      "Milanese",
       "Romagnol",
-      "Modena Italian",
-      "Venetian Italian",
       "Judeo-Italian"
+    ],
+    "de": [
+      "Romagnolisch",
+      "Judeo-Italienisch"
+    ],
+    "fr": [
+      "romagnol",
+      "judéo-italien"
     ]
   },
   "definition": {
