@@ -12,15 +12,15 @@ EUSprache: a skos:ConceptScheme ;
     "This vocabulary is a list of the 24 official languages of the Europen Union. The vocabulary is multilingual, based on the procedural languages of the EU: English, French and German."@en,
     "Ce vocabulaire est un liste des languages officieles de l'Union européenne. Le vocabulaire est multilingual, basé sûr les langues de traivail de l'UE: anglais, francais et allemand."@fr ;
     skos:hasTopConcept EUSprache:Deutsch ;
-    skos:hasTopConcept EUSprache: Englisch .
+    skos:hasTopConcept EUSprache:Englisch .
 
 EUSprache:Deutsch a skos:Concept ;
     skos:prefLabel "Deutsch"@de, "German"@en ;
     skos:exactMatch <http://id.loc.gov/vocabulary/languages/ger> ;
     skos:topConceptOf EUSprache: .
 
-EUSprache: Englisch a skos:Concept ;
+EUSprache:Englisch a skos:Concept ;
     skos:prefLabel "Englisch"@de, "English"@en, "anglais"@fr ;
-    skos:altLabel "Britisch"@de, Amerikanisch"@de
+    skos:altLabel "Britisch"@de, "Amerikanisch"@de ;
     skos:exactMatch <http://id.loc.gov/vocabulary/languages/eng> ;
     skos:topConceptOf EUSprache: .
