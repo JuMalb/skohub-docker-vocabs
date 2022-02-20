@@ -5,7 +5,7 @@
 
 EUSprache: a skos:ConceptScheme ;
     dct:title "Official languages of the European Union"@en, "Offizielle Sprachen der Europäischen Union"@de, "Langues officielles de l'Union européenne"@fr ;
-    dct:creator "JuMalb"@de ;
+    dct:creator "JuMalb" ;
     dct:created "2022-02-20"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:description "Dieses Vokabular ist eine Auflistung der 24 offiziellen Amtssprachen der Europäischen Union. Das Vokabular ist 3-sprachig, basierend auf den Arbeitssprachen der EU: Englisch, Französisch und Deutsch."@de, 
