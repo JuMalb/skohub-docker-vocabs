@@ -19,12 +19,16 @@ EUSprache:Deutsch a skos:Concept ;
     skos:prefLabel "Deutsch"@de, "German"@en, "allemand"@fr ;
     skos:altLabel "Alemannic"@en, "Cimbrian"@en ;
     skos:hiddenLabel "ger" ;
+    skos:definition "Westgermanische Sprache"@de, "West Germanic language"@en, "Langue germanique occidentale"@fr ;
+    skos:note "Amtssprache der EU seit 1958"@de, "Official EU language since 1958"@en, "Langue officielle de l'UE depuis 1958"@fr ;
     skos:exactMatch <http://id.loc.gov/vocabulary/languages/ger>, <https://www.wikidata.org/wiki/Q188> ;
     skos:topConceptOf EUSprache: .
 
 EUSprache:Englisch a skos:Concept ;
     skos:prefLabel "Englisch"@de, "English"@en, "anglais"@fr ;
     skos:hiddenLabel "eng" ;
+    skos:definition "Westgermanische Sprache mit Ursprung in England"@de, "West Germanic language originating in England"@en, "Langue germanique occidentale originaire d'Angleterre"@fr ;
+    skos:note "Amtssprache der EU seit 1973"@de, "Official EU language since 1973"@en, "Langue officielle de l'UE depuis 1973"@fr ;
     skos:exactMatch <http://id.loc.gov/vocabulary/languages/eng>, <https://www.wikidata.org/wiki/Q1860> ;
     skos:topConceptOf EUSprache: .
 
